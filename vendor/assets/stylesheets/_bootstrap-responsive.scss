@@ -116,7 +116,7 @@
 
 }
 
-/* COMMENTING THE UNNECESSARY MEDIA QUERIES OUT
+
 
 // LANDSCAPE PHONE TO SMALL DESKTOP & PORTRAIT TABLET
 // --------------------------------------------------
@@ -173,7 +173,7 @@
   }
 }
 
-
+/* COMMENTING THE UNNECESSARY MEDIA QUERIES OUT
 
 // PORTRAIT TABLET TO DEFAULT DESKTOP
 // ----------------------------------
@@ -190,7 +190,7 @@
   @include gridInput(42px, 20px);
 
 }
-
+*/
 
 
 // TABLETS AND BELOW
@@ -227,7 +227,7 @@
   }
   // Block-level the nav
   .navbar .nav {
-    float: none;
+/*    float: none;*/
     margin: 0 0 ($baseLineHeight / 2);
   }
   .navbar .nav > li {
@@ -309,7 +309,7 @@
   }
 }
 
-
+/* COMMENTING THE UNNECESSARY MEDIA QUERIES OUT
 
 // DEFAULT DESKTOP
 // ---------------
