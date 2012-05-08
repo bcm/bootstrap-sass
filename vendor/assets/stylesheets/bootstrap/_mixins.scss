@@ -532,6 +532,9 @@
 @mixin gridFluid($fluidGridColumnWidth, $fluidGridGutterWidth) {
   .row-fluid {
     width: 100%;
+    /* XXX  add these two lines because we are not fully responsive yet. [only mobile friendly currently] */
+    min-width: 976px;
+    max-width: 976px;
     @include clearfix();
     > [class*="span"] {
       float: left;
