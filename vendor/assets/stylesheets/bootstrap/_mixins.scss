@@ -28,7 +28,9 @@
   // Default
   outline: thin dotted #333;
   // Webkit
-  outline: 5px auto -webkit-focus-ring-color;
+  // XXX  commenting out to successfully override bootstrap's default
+  //outline: 5px auto -webkit-focus-ring-color;
+  outline: 3px auto $linkColor;
   outline-offset: -2px;
 }
 
@@ -532,9 +534,6 @@
 @mixin gridFluid($fluidGridColumnWidth, $fluidGridGutterWidth) {
   .row-fluid {
     width: 100%;
-    /* XXX  add these two lines because we are not fully responsive yet. [only mobile friendly currently] */
-    min-width: 976px;
-    max-width: 976px;
     @include clearfix();
     > [class*="span"] {
       float: left;
