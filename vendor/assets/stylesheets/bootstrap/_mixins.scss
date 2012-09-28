@@ -31,7 +31,7 @@
   // Default
   outline: thin dotted #333;
   // Webkit
-  // XXX  commenting out to successfully override bootstrap's default
+  // XXX  commenting out to override bootstrap's default
   //outline: 5px auto -webkit-focus-ring-color;
   outline: 3px auto $linkColor;
   outline-offset: -2px;
